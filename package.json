@@ -1,0 +1,29 @@
+{
+  "name": "grainer-server",
+  "version": "1.0.0",
+  "description": "server for game",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "mongodb": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minorusan/grainer_server.git"
+  },
+  "keywords": [
+    "grainer"
+  ],
+  "author": "Klim Shchukin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minorusan/grainer_server/issues"
+  },
+  "homepage": "https://github.com/minorusan/grainer_server#readme"
+}
