@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 const test = require('assert');
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 8080;
 app.use(express.json()); // to support JSON-encoded bodies
 
 const url = 'mongodb+srv://niceguyklim:0951737429aAA@cluster0-f7zsa.gcp.mongodb.net/test?retryWrites=true&w=majority';
